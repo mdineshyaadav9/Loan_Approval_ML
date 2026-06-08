@@ -1,0 +1,26 @@
+{
+  "best_threshold": 0.61,
+  "accuracy": 0.975609756097561,
+  "roc_auc": 0.9216165413533834,
+  "best_params": {
+    "max_depth": 20,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "n_estimators": 100
+  },
+  "feature_names": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "Loan_Amount_Term",
+    "Credit_History",
+    "ApplicantIncome_log",
+    "CoapplicantIncome_log",
+    "LoanAmount_log",
+    "Total_Income_log",
+    "Property_Area_Semiurban",
+    "Property_Area_Urban"
+  ]
+}

@@ -1,0 +1,28 @@
+# Virtual environment — thousands of files, not needed
+venv/
+env/
+.env
+
+# Trained model files — too large for GitHub
+models/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Plot images — regenerated when code runs
+plots/
+
+# Log files
+logs/
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
